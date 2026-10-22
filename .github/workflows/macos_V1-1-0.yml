@@ -15,8 +15,8 @@ jobs:
         include:
           - target: aarch64-apple-darwin   # Mac con Apple Silicon (M1, M2…)
             name: apple-silicon
-          - target: x86_64-apple-darwin    # Mac con Intel
-            name: intel
+          #- target: x86_64-apple-darwin    # Mac con Intel
+          #  name: intel
     steps:
       - uses: actions/checkout@v4
 
